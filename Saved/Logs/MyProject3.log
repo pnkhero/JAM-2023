@@ -2994,3 +2994,476 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2023.03.27-14.34.25:741][ 46]LogFileHelpers: InternalPromptForCheckoutAndSave took 586 ms (total: 30.4 sec)
 [2023.03.27-14.34.25:768][ 46]AssetCheck: New page: Asset Save: Map
 [2023.03.27-14.34.25:769][ 46]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Map.Map
+[2023.03.27-14.36.16:548][623]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2023.03.27-14.36.16:569][623]LogContentBrowser: Creating deferred item: NewWorld
+[2023.03.27-14.36.16:602][624]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2023.03.27-14.36.34:644][117]LogContentBrowser: Attempting asset rename: NewWorld -> Tutorial
+[2023.03.27-14.36.34:648][117]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.27-14.36.34:657][117]LogContentBrowser: End creating deferred item NewWorld
+[2023.03.27-14.36.36:469][152]LogUObjectHash: Compacting FUObjectHashTables data took   6.43ms
+[2023.03.27-14.36.46:684][152]LogSlate: Window 'Save Content' being destroyed
+[2023.03.27-14.36.46:743][152]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.27-14.36.46:935][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Tutorial" FILE="../../../../../../Users/rayan/OneDrive/Documents/GitHub/JAM-2023/Content/Levels/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.03.27-14.36.47:009][152]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2023.03.27-14.36.47:028][152]LogSavePackage: Moving output files for package: /Game/Levels/Tutorial
+[2023.03.27-14.36.47:029][152]LogSavePackage: Moving '../../../../../../Users/rayan/OneDrive/Documents/GitHub/JAM-2023/Saved/TutorialBFE37B3B4F4580F11BEE74AB4AA43F1C.tmp' to '../../../../../../Users/rayan/OneDrive/Documents/GitHub/JAM-2023/Content/Levels/Tutorial.umap'
+[2023.03.27-14.36.47:076][152]LogFileHelpers: Saving map 'Tutorial' took 0.144
+[2023.03.27-14.36.47:119][152]LogFileHelpers: InternalPromptForCheckoutAndSave took 375 ms (total: 30.7 sec)
+[2023.03.27-14.36.47:119][152]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Tutorial.Tutorial
+[2023.03.27-14.36.47:120][152]Cmd: MAP LOAD FILE="../../../../../../Users/rayan/OneDrive/Documents/GitHub/JAM-2023/Content/Levels/Tutorial.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.03.27-14.36.47:120][152]LightingResults: New page: Lighting Build
+[2023.03.27-14.36.47:120][152]LoadErrors: New page: Loading map: Tutorial.umap
+[2023.03.27-14.36.47:150][152]LogWorld: UWorld::CleanupWorld for Map2, bSessionEnded=true, bCleanupResources=true
+[2023.03.27-14.36.47:152][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.27-14.36.47:153][152]MapCheck: New page: Map Check
+[2023.03.27-14.36.47:153][152]LightingResults: New page: Lighting Build
+[2023.03.27-14.36.47:223][152]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.27-14.36.47:275][152]LogUObjectHash: Compacting FUObjectHashTables data took   8.14ms
+[2023.03.27-14.36.47:287][152]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2023.03.27-14.36.47:287][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.27-14.36.47:292][152]LogWorld: UWorld::CleanupWorld for Map, bSessionEnded=true, bCleanupResources=true
+[2023.03.27-14.36.47:292][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.27-14.36.47:301][152]LogWorld: UWorld::CleanupWorld for Map3, bSessionEnded=true, bCleanupResources=true
+[2023.03.27-14.36.47:304][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.27-14.36.47:308][152]LogWorld: UWorld::CleanupWorld for Demo, bSessionEnded=true, bCleanupResources=true
+[2023.03.27-14.36.47:309][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.27-14.36.47:311][152]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.27-14.36.47:312][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.27-14.36.47:320][152]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.27-14.36.47:322][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.27-14.36.47:332][152]LogWorld: UWorld::CleanupWorld for ContentOverview, bSessionEnded=true, bCleanupResources=true
+[2023.03.27-14.36.47:332][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.27-14.36.47:446][152]LogUObjectHash: Compacting FUObjectHashTables data took   5.40ms
+[2023.03.27-14.36.47:523][152]LogUObjectHash: Compacting FUObjectHashTables data took   5.37ms
+[2023.03.27-14.36.47:536][152]LogAudio: Display: Audio Device (ID: 1) registered with world 'Tutorial'.
+[2023.03.27-14.36.47:537][152]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.27-14.36.47:538][152]LogAIModule: Creating AISystem for world Tutorial
+[2023.03.27-14.36.47:906][152]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2023.03.27-14.36.47:992][152]LogUObjectHash: Compacting FUObjectHashTables data took   4.82ms
+[2023.03.27-14.36.48:041][152]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.27-14.36.48:042][152]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,898ms to complete.
+[2023.03.27-14.36.48:043][152]LogFileHelpers: Loading map 'Tutorial' took 0.923
+[2023.03.27-14.36.48:113][152]AssetCheck: New page: Asset Save: Tutorial
+[2023.03.27-14.36.48:113][152]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Tutorial.Tutorial
+[2023.03.27-14.36.49:568][179]LogEditorViewport: Clicking Background
+[2023.03.27-14.36.51:296][218]LogEditorViewport: Clicking Background
+[2023.03.27-14.36.59:212][448]LogEditorViewport: Clicking Background
+[2023.03.27-14.37.24:076][294]LogEditorViewport: Clicking Background
+[2023.03.27-14.37.25:106][320]LogEditorViewport: Clicking Background
+[2023.03.27-14.37.28:352][407]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.03.27-14.37.35:312][556]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2023.03.27-14.37.35:313][556]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2023.03.27-14.37.35:316][556]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/Levels/Tutorial.Tutorial:PersistentLevel.SkyLight_0
+[2023.03.27-14.37.35:318][556]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/Levels/Tutorial.Tutorial:PersistentLevel.SkyLight_0
+[2023.03.27-14.37.36:116][572]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2023.03.27-14.37.36:116][572]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2023.03.27-14.37.36:129][572]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/Levels/Tutorial.Tutorial:PersistentLevel.SkyLight_1
+[2023.03.27-14.37.36:131][572]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/Levels/Tutorial.Tutorial:PersistentLevel.SkyLight_1
+[2023.03.27-14.38.45:641][418]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2023.03.27-14.38.45:641][418]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2023.03.27-14.38.45:649][418]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Levels/Tutorial.Tutorial:PersistentLevel.StaticMeshActor_0
+[2023.03.27-14.38.45:652][418]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Levels/Tutorial.Tutorial:PersistentLevel.StaticMeshActor_0
+[2023.03.27-14.38.51:199][521]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.03.27-14.38.59:500][689]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.03.27-14.39.04:680][784]LogShaderCompilers: Display: ================================================
+[2023.03.27-14.39.04:680][784]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.27-14.39.04:681][784]LogShaderCompilers: Display: Total job queries 3296, among them cache hits 9 (0.27%)
+[2023.03.27-14.39.04:681][784]LogShaderCompilers: Display: Tracking 3287 distinct input hashes that result in 2293 distinct outputs (69.76%)
+[2023.03.27-14.39.04:681][784]LogShaderCompilers: Display: RAM used: 9.39 MB (0.01 GB) of 716.80 MB (0.70 GB) budget. Usage: 1.31%
+[2023.03.27-14.39.04:681][784]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.27-14.39.04:681][784]LogShaderCompilers: Display: Shaders Compiled: 3287
+[2023.03.27-14.39.04:681][784]LogShaderCompilers: Display: Jobs assigned 3287, completed 3287 (100.00%)
+[2023.03.27-14.39.04:681][784]LogShaderCompilers: Display: Average time worker was idle: 5.53 s
+[2023.03.27-14.39.04:681][784]LogShaderCompilers: Display: Time job spent in pending queue: average 1826.57 s, longest 4178.01 s
+[2023.03.27-14.39.04:681][784]LogShaderCompilers: Display: Job execution time: average 72.02 s, max 1113.22 s
+[2023.03.27-14.39.04:682][784]LogShaderCompilers: Display: Job life time (pending + execution): average 1898.59 s, max 4189.02
+[2023.03.27-14.39.04:682][784]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5513.23 s
+[2023.03.27-14.39.04:682][784]LogShaderCompilers: Display: Jobs were issued in 446 batches (only local compilation was used), average 7.37 jobs/batch
+[2023.03.27-14.39.04:682][784]LogShaderCompilers: Display: Average processing rate: 0.60 jobs/sec
+[2023.03.27-14.39.04:682][784]LogShaderCompilers: Display: Total thread time: 24634.84 s
+[2023.03.27-14.39.04:682][784]LogShaderCompilers: Display: Total thread preprocess time: 1089.64 s
+[2023.03.27-14.39.04:682][784]LogShaderCompilers: Display: Percentage time preprocessing: 4.42%
+[2023.03.27-14.39.04:682][784]LogShaderCompilers: Display: Effective parallelization: 4.47 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.03.27-14.39.04:682][784]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.03.27-14.39.04:683][784]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 132.90 sec, max 132.90 sec, min 132.90 sec)
+[2023.03.27-14.39.04:683][784]LogShaderCompilers: Display:                                   FCloudRenderViewPS101false (compiled    1 times, average 131.45 sec, max 131.45 sec, min 131.45 sec)
+[2023.03.27-14.39.04:683][784]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 125.29 sec, max 125.29 sec, min 125.29 sec)
+[2023.03.27-14.39.04:683][784]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 122.70 sec, max 122.70 sec, min 122.70 sec)
+[2023.03.27-14.39.04:683][784]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 120.81 sec, max 236.82 sec, min 43.35 sec)
+[2023.03.27-14.39.04:683][784]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.03.27-14.39.04:683][784]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 10.31% of total time (compiled  128 times, average 19.85 sec, max 71.02 sec, min 5.22 sec)
+[2023.03.27-14.39.04:683][784]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 8.85% of total time (compiled  128 times, average 17.04 sec, max 168.50 sec, min 0.96 sec)
+[2023.03.27-14.39.04:683][784]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 8.34% of total time (compiled   17 times, average 120.81 sec, max 236.82 sec, min 43.35 sec)
+[2023.03.27-14.39.04:683][784]LogShaderCompilers: Display:                                             FDeferredLightPS - 6.09% of total time (compiled  102 times, average 14.70 sec, max 45.14 sec, min 1.31 sec)
+[2023.03.27-14.39.04:683][784]LogShaderCompilers: Display:   FLumenDirectLightingNonRayTracedShadowsWithLightFunctionCS - 5.86% of total time (compiled  120 times, average 12.04 sec, max 106.73 sec, min 1.12 sec)
+[2023.03.27-14.39.04:684][784]LogShaderCompilers: Display: ================================================
+[2023.03.27-14.39.26:340][376]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2023.03.27-14.39.26:340][376]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2023.03.27-14.39.26:341][376]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/Levels/Tutorial.Tutorial:PersistentLevel.SkyAtmosphere_0
+[2023.03.27-14.39.26:341][376]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/Levels/Tutorial.Tutorial:PersistentLevel.SkyAtmosphere_0
+[2023.03.27-14.39.26:748][383]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2023.03.27-14.39.26:749][383]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2023.03.27-14.39.26:760][383]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/Levels/Tutorial.Tutorial:PersistentLevel.SkyAtmosphere_1
+[2023.03.27-14.39.26:761][383]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/Levels/Tutorial.Tutorial:PersistentLevel.SkyAtmosphere_1
+[2023.03.27-14.39.50:426][165]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2023.03.27-14.39.50:427][165]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2023.03.27-14.39.54:948][286]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2023.03.27-14.39.54:950][286]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2023.03.27-14.39.57:257][352]Cmd: DELETE
+[2023.03.27-14.39.57:257][352]Cmd: ACTOR DELETE
+[2023.03.27-14.39.57:266][352]LogEditorActor: Deleted Actor: PointLight
+[2023.03.27-14.39.57:453][352]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2023.03.27-14.39.57:458][352]LogEditorActor: Deleted 1 Actors (0.200 secs)
+[2023.03.27-14.40.46:042][471]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.27-14.40.46:045][471]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.27-14.40.46:045][471]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.27-14.42.07:321][  8]LogObjectTools: Deleting 1 worlds: /Game/Levels/Tutorial.Tutorial
+[2023.03.27-14.42.07:322][  8]LogObjectTools: Currently 37 active worlds: /Game/Levels/Tutorial.Tutorial, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_6, /Engine/Transient.World_7, /Engine/Transient.World_8, /Engine/Transient.World_9, /Engine/Transient.World_10, /Engine/Transient.World_11, /Engine/Transient.World_12, /Engine/Transient.World_13, /Engine/Transient.World_14, /Engine/Transient.World_15, /Engine/Transient.World_16, /Engine/Transient.World_17, /Engine/Transient.World_18, /Engine/Transient.World_19, /Engine/Transient.World_20, /Engine/Transient.World_21, /Engine/Transient.World_22, /Engine/Transient.World_23, /Engine/Transient.World_24, /Engine/Transient.World_25, /Engine/Transient.World_26, /Engine/Transient.World_27, /Engine/Transient.World_28, /Engine/Transient.World_29, /Engine/Transient.World_30, /Engine/Transient.World_31, /Engine/Transient.World_32, /Engine/Transient.World_33, /Engine/Transient.World_34, /Engine/Transient.World_35, /Engine/Transient.World_36, /Engine/Transient.World_37
+[2023.03.27-14.42.08:603][  8]LogSlate: Window 'Unable to delete level' being destroyed
+[2023.03.27-14.42.08:611][  8]Message dialog closed, result: Ok, title: Unable to delete level, text: Unable to delete level while it is open
+[2023.03.27-14.42.09:453][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.03.27-14.42.10:408][ 31]LogSlate: Window 'Save Content' being destroyed
+[2023.03.27-14.42.10:421][ 31]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.27-14.42.10:472][ 31]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Tutorial" FILE="../../../../../../Users/rayan/OneDrive/Documents/GitHub/JAM-2023/Content/Levels/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.03.27-14.42.10:483][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.03.27-14.42.10:490][ 31]LogSavePackage: Moving output files for package: /Game/Levels/Tutorial
+[2023.03.27-14.42.10:492][ 31]LogSavePackage: Moving '../../../../../../Users/rayan/OneDrive/Documents/GitHub/JAM-2023/Saved/TutorialD5937A964677B8BBC2496CB7642740EB.tmp' to '../../../../../../Users/rayan/OneDrive/Documents/GitHub/JAM-2023/Content/Levels/Tutorial.umap'
+[2023.03.27-14.42.10:508][ 31]LogFileHelpers: Saving map 'Tutorial' took 0.036
+[2023.03.27-14.42.10:516][ 31]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 30.8 sec)
+[2023.03.27-14.42.10:734][ 31]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Map3.Map3
+[2023.03.27-14.42.10:734][ 31]Cmd: MAP LOAD FILE="../../../../../../Users/rayan/OneDrive/Documents/GitHub/JAM-2023/Content/Levels/Map3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.03.27-14.42.10:734][ 31]LightingResults: New page: Lighting Build
+[2023.03.27-14.42.10:735][ 31]LoadErrors: New page: Loading map: Map3.umap
+[2023.03.27-14.42.10:738][ 31]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2023.03.27-14.42.10:739][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.27-14.42.10:739][ 31]MapCheck: New page: Map Check
+[2023.03.27-14.42.10:739][ 31]LightingResults: New page: Lighting Build
+[2023.03.27-14.42.10:754][ 31]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.27-14.42.10:756][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.03.27-14.42.10:760][ 31]LogWorld: UWorld::CleanupWorld for Map3, bSessionEnded=true, bCleanupResources=true
+[2023.03.27-14.42.10:761][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.27-14.42.10:780][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.03.27-14.42.10:800][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.03.27-14.42.10:861][ 31]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map3'.
+[2023.03.27-14.42.10:861][ 31]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.27-14.42.10:862][ 31]LogAIModule: Creating AISystem for world Map3
+[2023.03.27-14.42.11:095][ 31]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.27-14.42.11:118][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.03.27-14.42.11:129][ 31]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.27-14.42.11:129][ 31]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,256ms to complete.
+[2023.03.27-14.42.11:129][ 31]LogFileHelpers: Loading map 'Map3' took 0.394
+[2023.03.27-14.42.11:154][ 31]AssetCheck: New page: Asset Save: Tutorial
+[2023.03.27-14.42.13:786][ 99]LogObjectTools: Deleting 1 worlds: /Game/Levels/Tutorial.Tutorial
+[2023.03.27-14.42.13:788][ 99]LogObjectTools: Currently 37 active worlds: /Game/Levels/Map3.Map3, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_6, /Engine/Transient.World_7, /Engine/Transient.World_8, /Engine/Transient.World_9, /Engine/Transient.World_10, /Engine/Transient.World_11, /Engine/Transient.World_12, /Engine/Transient.World_13, /Engine/Transient.World_14, /Engine/Transient.World_15, /Engine/Transient.World_16, /Engine/Transient.World_17, /Engine/Transient.World_18, /Engine/Transient.World_19, /Engine/Transient.World_20, /Engine/Transient.World_21, /Engine/Transient.World_22, /Engine/Transient.World_23, /Engine/Transient.World_24, /Engine/Transient.World_25, /Engine/Transient.World_26, /Engine/Transient.World_27, /Engine/Transient.World_28, /Engine/Transient.World_29, /Engine/Transient.World_30, /Engine/Transient.World_31, /Engine/Transient.World_32, /Engine/Transient.World_33, /Engine/Transient.World_34, /Engine/Transient.World_35, /Engine/Transient.World_36, /Engine/Transient.World_37
+[2023.03.27-14.42.13:840][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2023.03.27-14.42.14:972][ 99]LogSlate: Window 'Delete Assets' being destroyed
+[2023.03.27-14.42.14:981][ 99]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2023.03.27-14.42.14:981][ 99]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.27-14.42.15:012][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.03.27-14.42.15:024][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.03.27-14.42.15:039][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.03.27-14.42.22:494][266]LogSlate: Window 'New Level' being destroyed
+[2023.03.27-14.42.22:503][266]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.03.27-14.42.22:515][266]LightingResults: New page: Lighting Build
+[2023.03.27-14.42.22:516][266]LoadErrors: New page: Loading map: Template_Default.umap
+[2023.03.27-14.42.22:524][266]LogWorld: UWorld::CleanupWorld for Map3, bSessionEnded=true, bCleanupResources=true
+[2023.03.27-14.42.22:524][266]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.27-14.42.22:524][266]MapCheck: New page: Map Check
+[2023.03.27-14.42.22:524][266]LightingResults: New page: Lighting Build
+[2023.03.27-14.42.22:535][266]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.27-14.42.22:565][266]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.03.27-14.42.22:600][266]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2023.03.27-14.42.22:600][266]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.27-14.42.22:601][266]LogAIModule: Creating AISystem for world Untitled_1
+[2023.03.27-14.42.22:811][266]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.27-14.42.22:832][266]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.03.27-14.42.22:833][266]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.27-14.42.22:833][266]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,322ms to complete.
+[2023.03.27-14.42.22:833][266]LogFileHelpers: Loading map 'Template_Default' took 0.330
+[2023.03.27-14.42.31:382][405]LogShaderCompilers: Display: ================================================
+[2023.03.27-14.42.31:383][405]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.27-14.42.31:383][405]LogShaderCompilers: Display: Total job queries 3300, among them cache hits 9 (0.27%)
+[2023.03.27-14.42.31:383][405]LogShaderCompilers: Display: Tracking 3288 distinct input hashes that result in 2293 distinct outputs (69.74%)
+[2023.03.27-14.42.31:383][405]LogShaderCompilers: Display: RAM used: 9.40 MB (0.01 GB) of 716.80 MB (0.70 GB) budget. Usage: 1.31%
+[2023.03.27-14.42.31:383][405]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.27-14.42.31:383][405]LogShaderCompilers: Display: Shaders Compiled: 3288
+[2023.03.27-14.42.31:383][405]LogShaderCompilers: Display: Jobs assigned 3291, completed 3288 (99.91%)
+[2023.03.27-14.42.31:383][405]LogShaderCompilers: Display: Average time worker was idle: 9.29 s
+[2023.03.27-14.42.31:383][405]LogShaderCompilers: Display: Time job spent in pending queue: average 1824.35 s, longest 4178.01 s
+[2023.03.27-14.42.31:383][405]LogShaderCompilers: Display: Job execution time: average 72.00 s, max 1113.22 s
+[2023.03.27-14.42.31:384][405]LogShaderCompilers: Display: Job life time (pending + execution): average 1898.01 s, max 4189.02
+[2023.03.27-14.42.31:384][405]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5521.75 s
+[2023.03.27-14.42.31:384][405]LogShaderCompilers: Display: Jobs were issued in 450 batches (only local compilation was used), average 7.31 jobs/batch
+[2023.03.27-14.42.31:384][405]LogShaderCompilers: Display: Average processing rate: 0.60 jobs/sec
+[2023.03.27-14.42.31:384][405]LogShaderCompilers: Display: Total thread time: 24641.35 s
+[2023.03.27-14.42.31:384][405]LogShaderCompilers: Display: Total thread preprocess time: 1090.04 s
+[2023.03.27-14.42.31:384][405]LogShaderCompilers: Display: Percentage time preprocessing: 4.42%
+[2023.03.27-14.42.31:384][405]LogShaderCompilers: Display: Effective parallelization: 4.46 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.03.27-14.42.31:384][405]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.03.27-14.42.31:384][405]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 132.90 sec, max 132.90 sec, min 132.90 sec)
+[2023.03.27-14.42.31:384][405]LogShaderCompilers: Display:                                   FCloudRenderViewPS101false (compiled    1 times, average 131.45 sec, max 131.45 sec, min 131.45 sec)
+[2023.03.27-14.42.31:385][405]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 125.29 sec, max 125.29 sec, min 125.29 sec)
+[2023.03.27-14.42.31:385][405]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 122.70 sec, max 122.70 sec, min 122.70 sec)
+[2023.03.27-14.42.31:385][405]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 120.81 sec, max 236.82 sec, min 43.35 sec)
+[2023.03.27-14.42.31:385][405]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.03.27-14.42.31:385][405]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 10.31% of total time (compiled  128 times, average 19.85 sec, max 71.02 sec, min 5.22 sec)
+[2023.03.27-14.42.31:385][405]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 8.85% of total time (compiled  128 times, average 17.04 sec, max 168.50 sec, min 0.96 sec)
+[2023.03.27-14.42.31:385][405]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 8.33% of total time (compiled   17 times, average 120.81 sec, max 236.82 sec, min 43.35 sec)
+[2023.03.27-14.42.31:385][405]LogShaderCompilers: Display:                                             FDeferredLightPS - 6.08% of total time (compiled  102 times, average 14.70 sec, max 45.14 sec, min 1.31 sec)
+[2023.03.27-14.42.31:385][405]LogShaderCompilers: Display:   FLumenDirectLightingNonRayTracedShadowsWithLightFunctionCS - 5.86% of total time (compiled  120 times, average 12.04 sec, max 106.73 sec, min 1.12 sec)
+[2023.03.27-14.42.31:385][405]LogShaderCompilers: Display: ================================================
+[2023.03.27-14.42.37:056][486]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.27-14.42.37:107][486]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.27-14.42.37:126][486]LogPlayLevel: [PlayLevel] Compiling FirstPerson_AnimBP before play...
+[2023.03.27-14.42.37:146][486]LogPlayLevel: [PlayLevel]   Compiling BP_FirstPersonCharacter as a dependent...
+[2023.03.27-14.42.37:478][486]LogPlayLevel: [PlayLevel] Compiling NewAnimBlueprint before play...
+[2023.03.27-14.42.37:482][486]LogPlayLevel: [PlayLevel]   Compiling BP_ThirdPersonCharacter as a dependent...
+[2023.03.27-14.42.37:564][486]LogPlayLevel: [PlayLevel] Compiling GameMode before play...
+[2023.03.27-14.42.37:579][486]LogPlayLevel: [PlayLevel] Compiling AnimEnemy_BP before play...
+[2023.03.27-14.42.37:580][486]LogPlayLevel: [PlayLevel]   Compiling AI_Enemy_BP as a dependent...
+[2023.03.27-14.42.37:645][486]LogPlayLevel: [PlayLevel] Compiling BP_FirstPersonProjectile before play...
+[2023.03.27-14.42.37:672][486]LogPlayLevel: [PlayLevel] Compiling BP_Weapon_Component before play...
+[2023.03.27-14.42.37:708][486]LogPlayLevel: [PlayLevel] Compiling BP_Pickup_Rifle before play...
+[2023.03.27-14.42.37:768][486]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2023.03.27-14.42.37:769][486]LogPlayLevel: PlayLevel: Blueprint regeneration took 662 ms (10 blueprints)
+[2023.03.27-14.42.37:770][486]PIE: New page: PIE session: Untitled_1 (27 mars 2023 à 18:42:37)
+[2023.03.27-14.42.37:770][486]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2023.03.27-14.42.37:776][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006484s)
+[2023.03.27-14.42.37:776][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.006579s)
+[2023.03.27-14.42.37:776][486]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.27-14.42.37:778][486]LogAIModule: Creating AISystem for world Untitled_1
+[2023.03.27-14.42.37:779][486]LogPlayLevel: PIE: World Init took: (0.002094s)
+[2023.03.27-14.42.37:815][486]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2023.03.27-14.42.37:817][486]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.03.27-14.42.37:817][486]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.27-14.42.37:817][486]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.27-14.42.37:817][486]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.27-14.42.37:817][486]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.27-14.42.37:817][486]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.27-14.42.37:817][486]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.27-14.42.37:817][486]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.27-14.42.37:817][486]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.27-14.42.37:818][486]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.27-14.42.37:819][486]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.27-14.42.37:819][486]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.27-14.42.37:827][486]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.27-14.42.37:936][486]LogAudioMixer: Display: Using Audio Hardware Device 2 - SAMSUNG (AMD High Definition Audio Device)
+[2023.03.27-14.42.37:937][486]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.27-14.42.37:937][486]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.27-14.42.37:937][486]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.27-14.42.37:940][486]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.03.27-14.42.37:940][486]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.03.27-14.42.37:945][486]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.03.27-14.42.37:945][486]LogInit: FAudioDevice initialized.
+[2023.03.27-14.42.37:945][486]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.03.27-14.42.37:945][486]LogAudio: Display: Audio Device (ID: 9) registered with world 'Untitled_1'.
+[2023.03.27-14.42.37:955][486]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.03.27-14.42.37:957][486]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2023.03.27-16.42.37
+[2023.03.27-14.42.37:957][486]LogWorld: Bringing up level for play took: 0.001633
+[2023.03.27-14.42.37:964][486]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2023.03.27-14.42.37:971][486]PIE: Server logged in
+[2023.03.27-14.42.37:972][486]PIE: Play in editor total start time 0,865 seconds.
+[2023.03.27-14.42.40:631][538]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.27-14.42.40:632][538]LogWorld: BeginTearingDown for /Temp/UEDPIE_0_Untitled_1
+[2023.03.27-14.42.40:632][538]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2023.03.27-14.42.40:633][538]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.27-14.42.40:648][538]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.27-14.42.40:660][538]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.27-14.42.40:724][538]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.27-14.42.40:725][538]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.03.27-14.42.40:735][538]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.03.27-14.42.40:771][538]LogUObjectHash: Compacting FUObjectHashTables data took   4.95ms
+[2023.03.27-14.42.40:958][539]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2023.03.27-14.42.44:816][595]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.03.27-14.42.59:134][ 51]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2023.03.27-14.42.59:134][ 51]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2023.03.27-14.42.59:136][ 51]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart_0
+[2023.03.27-14.42.59:136][ 51]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.03.27-14.42.59:138][ 51]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart_0
+[2023.03.27-14.42.59:138][ 51]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.03.27-14.43.00:465][ 77]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2023.03.27-14.43.00:465][ 77]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2023.03.27-14.43.00:481][ 77]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart_1
+[2023.03.27-14.43.00:482][ 77]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.03.27-14.43.00:491][ 77]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart_1
+[2023.03.27-14.43.00:492][ 77]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.03.27-14.43.05:429][173]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.27-14.43.05:432][173]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.27-14.43.05:432][173]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.27-14.43.12:684][338]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.27-14.43.12:734][338]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.27-14.43.12:734][338]PIE: New page: PIE session: Untitled_1 (27 mars 2023 à 18:43:12)
+[2023.03.27-14.43.12:734][338]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2023.03.27-14.43.12:753][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017921s)
+[2023.03.27-14.43.12:754][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.018104s)
+[2023.03.27-14.43.12:754][338]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.27-14.43.12:757][338]LogAIModule: Creating AISystem for world Untitled_1
+[2023.03.27-14.43.12:758][338]LogPlayLevel: PIE: World Init took: (0.004927s)
+[2023.03.27-14.43.12:893][338]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2023.03.27-14.43.12:899][338]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.03.27-14.43.12:899][338]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.27-14.43.12:900][338]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.27-14.43.12:900][338]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.27-14.43.12:900][338]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.27-14.43.12:900][338]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.27-14.43.12:900][338]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.27-14.43.12:900][338]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.27-14.43.12:900][338]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.27-14.43.12:902][338]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.27-14.43.12:902][338]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.27-14.43.12:902][338]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.27-14.43.12:913][338]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.27-14.43.13:055][338]LogAudioMixer: Display: Using Audio Hardware Device 2 - SAMSUNG (AMD High Definition Audio Device)
+[2023.03.27-14.43.13:056][338]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.27-14.43.13:056][338]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.27-14.43.13:056][338]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.27-14.43.13:061][338]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.03.27-14.43.13:061][338]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.03.27-14.43.13:068][338]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.03.27-14.43.13:068][338]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.03.27-14.43.13:068][338]LogInit: FAudioDevice initialized.
+[2023.03.27-14.43.13:068][338]LogAudio: Display: Audio Device (ID: 10) registered with world 'Untitled_1'.
+[2023.03.27-14.43.13:080][338]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.03.27-14.43.13:082][338]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2023.03.27-16.43.13
+[2023.03.27-14.43.13:083][338]LogWorld: Bringing up level for play took: 0.002555
+[2023.03.27-14.43.13:093][338]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2023.03.27-14.43.13:104][338]PIE: Server logged in
+[2023.03.27-14.43.13:106][338]PIE: Play in editor total start time 0,373 seconds.
+[2023.03.27-14.43.18:592][438]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.27-14.43.18:592][438]LogWorld: BeginTearingDown for /Temp/UEDPIE_0_Untitled_1
+[2023.03.27-14.43.18:592][438]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2023.03.27-14.43.18:593][438]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.27-14.43.18:608][438]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.27-14.43.18:620][438]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.27-14.43.18:689][438]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.27-14.43.18:690][438]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.03.27-14.43.18:699][438]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.03.27-14.43.18:728][438]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.27-14.43.18:738][438]LogUObjectHash: Compacting FUObjectHashTables data took   5.13ms
+[2023.03.27-14.43.18:955][439]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2023.03.27-14.43.21:039][474]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.27-14.43.21:088][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.27-14.43.21:088][474]PIE: New page: PIE session: Untitled_1 (27 mars 2023 à 18:43:21)
+[2023.03.27-14.43.21:089][474]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2023.03.27-14.43.21:104][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015425s)
+[2023.03.27-14.43.21:104][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.015622s)
+[2023.03.27-14.43.21:105][474]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.27-14.43.21:106][474]LogAIModule: Creating AISystem for world Untitled_1
+[2023.03.27-14.43.21:109][474]LogPlayLevel: PIE: World Init took: (0.004537s)
+[2023.03.27-14.43.21:178][474]LogUObjectHash: Compacting FUObjectHashTables data took   4.89ms
+[2023.03.27-14.43.21:182][474]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.03.27-14.43.21:182][474]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.27-14.43.21:182][474]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.27-14.43.21:182][474]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.27-14.43.21:182][474]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.27-14.43.21:182][474]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.27-14.43.21:184][474]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.27-14.43.21:184][474]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.27-14.43.21:184][474]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.27-14.43.21:185][474]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.27-14.43.21:185][474]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.27-14.43.21:185][474]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.27-14.43.21:197][474]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.27-14.43.21:298][474]LogAudioMixer: Display: Using Audio Hardware Device 2 - SAMSUNG (AMD High Definition Audio Device)
+[2023.03.27-14.43.21:298][474]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.27-14.43.21:298][474]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.27-14.43.21:298][474]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.27-14.43.21:301][474]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.03.27-14.43.21:301][474]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.03.27-14.43.21:305][474]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.03.27-14.43.21:305][474]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.03.27-14.43.21:305][474]LogInit: FAudioDevice initialized.
+[2023.03.27-14.43.21:305][474]LogAudio: Display: Audio Device (ID: 11) registered with world 'Untitled_1'.
+[2023.03.27-14.43.21:312][474]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.03.27-14.43.21:313][474]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2023.03.27-16.43.21
+[2023.03.27-14.43.21:313][474]LogWorld: Bringing up level for play took: 0.001293
+[2023.03.27-14.43.21:318][474]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2023.03.27-14.43.21:324][474]PIE: Server logged in
+[2023.03.27-14.43.21:325][474]PIE: Play in editor total start time 0,238 seconds.
+[2023.03.27-14.43.24:721][546]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.27-14.43.24:721][546]LogWorld: BeginTearingDown for /Temp/UEDPIE_0_Untitled_1
+[2023.03.27-14.43.24:722][546]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2023.03.27-14.43.24:722][546]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.27-14.43.24:738][546]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.27-14.43.24:750][546]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.27-14.43.24:814][546]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.27-14.43.24:814][546]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.03.27-14.43.24:825][546]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.03.27-14.43.24:851][546]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.27-14.43.24:861][546]LogUObjectHash: Compacting FUObjectHashTables data took   4.93ms
+[2023.03.27-14.43.25:138][547]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2023.03.27-14.44.06:463][185]LogSlate: Window 'Save Level As' being destroyed
+[2023.03.27-14.44.06:752][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Tutorial" FILE="../../../../../../Users/rayan/OneDrive/Documents/GitHub/JAM-2023/Content/Levels/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.03.27-14.44.06:820][185]LogUObjectHash: Compacting FUObjectHashTables data took   4.85ms
+[2023.03.27-14.44.06:891][185]LogSavePackage: Moving output files for package: /Game/Levels/Tutorial
+[2023.03.27-14.44.06:891][185]LogSavePackage: Moving '../../../../../../Users/rayan/OneDrive/Documents/GitHub/JAM-2023/Saved/Tutorial128014BE494C4C941770BE9815A2324D.tmp' to '../../../../../../Users/rayan/OneDrive/Documents/GitHub/JAM-2023/Content/Levels/Tutorial.umap'
+[2023.03.27-14.44.07:006][185]LogFileHelpers: Saving map 'Tutorial' took 0.480
+[2023.03.27-14.44.07:006][185]Cmd: MAP LOAD FILE="../../../../../../Users/rayan/OneDrive/Documents/GitHub/JAM-2023/Content/Levels/Tutorial.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.03.27-14.44.07:008][185]LightingResults: New page: Lighting Build
+[2023.03.27-14.44.07:008][185]LoadErrors: New page: Loading map: Tutorial.umap
+[2023.03.27-14.44.07:022][185]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2023.03.27-14.44.07:022][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.27-14.44.07:022][185]MapCheck: New page: Map Check
+[2023.03.27-14.44.07:023][185]LightingResults: New page: Lighting Build
+[2023.03.27-14.44.07:085][185]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.27-14.44.07:093][185]LogUObjectHash: Compacting FUObjectHashTables data took   4.94ms
+[2023.03.27-14.44.07:121][185]LogAudio: Display: Audio Device (ID: 1) registered with world 'Tutorial'.
+[2023.03.27-14.44.07:122][185]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.27-14.44.07:125][185]LogAIModule: Creating AISystem for world Tutorial
+[2023.03.27-14.44.07:998][185]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2023.03.27-14.44.08:083][185]LogUObjectHash: Compacting FUObjectHashTables data took   5.03ms
+[2023.03.27-14.44.08:140][185]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.27-14.44.08:141][185]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,952ms to complete.
+[2023.03.27-14.44.08:141][185]LogFileHelpers: Loading map 'Tutorial' took 1.134
+[2023.03.27-14.44.08:163][185]AssetCheck: New page: Asset Save: Tutorial
+[2023.03.27-14.44.08:163][185]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Tutorial.Tutorial
+[2023.03.27-14.44.11:098][247]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.27-14.44.11:153][247]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.27-14.44.11:153][247]PIE: New page: PIE session: Tutorial (27 mars 2023 à 18:44:11)
+[2023.03.27-14.44.11:154][247]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Tutorial
+[2023.03.27-14.44.11:170][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016200s)
+[2023.03.27-14.44.11:170][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Tutorial.Tutorial to /Game/Levels/UEDPIE_0_Tutorial.Tutorial (0.016385s)
+[2023.03.27-14.44.11:171][247]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.27-14.44.11:173][247]LogAIModule: Creating AISystem for world Tutorial
+[2023.03.27-14.44.11:175][247]LogPlayLevel: PIE: World Init took: (0.004488s)
+[2023.03.27-14.44.11:250][247]LogUObjectHash: Compacting FUObjectHashTables data took   5.80ms
+[2023.03.27-14.44.11:258][247]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.03.27-14.44.11:258][247]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.27-14.44.11:258][247]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.27-14.44.11:258][247]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.27-14.44.11:258][247]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.27-14.44.11:258][247]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.27-14.44.11:258][247]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.27-14.44.11:258][247]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.27-14.44.11:259][247]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.27-14.44.11:261][247]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.27-14.44.11:261][247]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.27-14.44.11:261][247]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.27-14.44.11:274][247]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.27-14.44.11:508][247]LogAudioMixer: Display: Using Audio Hardware Device 2 - SAMSUNG (AMD High Definition Audio Device)
+[2023.03.27-14.44.11:511][247]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.27-14.44.11:511][247]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.27-14.44.11:511][247]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.27-14.44.11:529][247]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2023.03.27-14.44.11:529][247]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2023.03.27-14.44.11:541][247]LogInit: FAudioDevice initialized.
+[2023.03.27-14.44.11:541][247]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.03.27-14.44.11:541][247]LogAudio: Display: Audio Device (ID: 12) registered with world 'Tutorial'.
+[2023.03.27-14.44.11:541][247]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2023.03.27-14.44.11:606][247]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.03.27-14.44.11:610][247]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2023.03.27-16.44.11
+[2023.03.27-14.44.11:610][247]LogWorld: Bringing up level for play took: 0.003677
+[2023.03.27-14.44.11:625][247]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2023.03.27-14.44.11:640][247]PIE: Server logged in
+[2023.03.27-14.44.11:644][247]PIE: Play in editor total start time 0,492 seconds.
+[2023.03.27-14.44.14:381][296]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.27-14.44.14:382][296]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Tutorial
+[2023.03.27-14.44.14:382][296]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2023.03.27-14.44.14:383][296]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.27-14.44.14:398][296]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.27-14.44.14:409][296]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.27-14.44.14:475][296]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.27-14.44.14:476][296]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.03.27-14.44.14:486][296]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.03.27-14.44.14:524][296]LogUObjectHash: Compacting FUObjectHashTables data took   5.59ms
+[2023.03.27-14.44.14:636][297]LogPlayLevel: Display: Destroying online subsystem :Context_47
